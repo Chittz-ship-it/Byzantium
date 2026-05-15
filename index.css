@@ -1,0 +1,29 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #06100a;
+  min-height: 100vh;
+}
+
+button {
+  all: unset;
+}
+
+input {
+  all: unset;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #0b1a10;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a3d20;
+  border-radius: 2px;
+}
