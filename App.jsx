@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 // 1. Deploy worker.js to workers.cloudflare.com
 // 2. Add NVIDIA_API_KEY as a secret in your Worker's Settings → Variables
 // 3. Paste your Worker URL below (e.g. https://byzantium.yourname.workers.dev)
-const WORKER_URL = "https://YOUR_WORKER_URL_HERE";
+const WORKER_URL = "https://matthewbrindley.charliechitty.workers.dev/;
 
 const callNVIDIA = async (messages) => {
   const res = await fetch(WORKER_URL, {
